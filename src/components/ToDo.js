@@ -8,6 +8,7 @@ const ToDo = ({todo, deleteTask}) => {
             <div>{todo.complete}</div>
             <button onClick={()=>{
                 deleteTask(todo.id);
+
             }}>delete</button>
         </div>
     );
